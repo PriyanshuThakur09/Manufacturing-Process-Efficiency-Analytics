@@ -1,0 +1,13 @@
+Factor|Description|Operator Error
+1|Emergency stop|No
+2|Batch change|Yes
+3|Labeling error|No
+4|Inventory shortage|No
+5|Product spill|Yes
+6|Machine adjustment|Yes
+7|Machine failure|No
+8|Batch coding error|Yes
+9|Conveyor belt jam|No
+10|Calibration error|Yes
+11|Label switch|Yes
+12|Other|No
