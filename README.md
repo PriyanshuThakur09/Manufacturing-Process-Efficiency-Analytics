@@ -14,33 +14,6 @@ The outcome is a **Power BI dashboard** that visualizes OEE trends, compares pro
 - **Python (Pandas, NumPy, Matplotlib, Seaborn)** → Performance, Quality, OEE calculations + plots  
 - **Power BI** → Interactive KPI dashboard  
 
-## 📂 Repository Structure  
-
-Manufacturing-Process-Efficiency-Analytics/
-│
-├── Dashboard and Report/
-│ ├── Production Line Analytics Dashboard.pbix # Power BI dashboard
-│ └── Production Line Analytics Dashboard.pdf # Exported report
-│
-├── Final result - OEE/
-│ └── oee_results.csv # Final dataset with A, P, Q, OEE
-│
-├── Notebook/
-│ └── Manufacturing efficiency analytics.ipynb # Jupyter Notebook (Python analysis)
-│
-├── Project Data/
-│ ├── batch_times.csv # Availability results from SQL
-│ ├── counts_simulated.csv # Simulated production counts & rejects
-│ ├── downtime-factors.csv # Raw downtime factors
-│ ├── line-downtime.csv # Raw downtime data
-│ ├── line-productivity.csv # Raw productivity data
-│ ├── line_downtime_clean.csv # Cleaned downtime dataset
-│ ├── line_productivity_clean.csv # Cleaned productivity dataset
-│ └── products.csv # Product details (size, specs)
-│
-└── README.md # Project overview & instructions
-
-
 
 ---
 
@@ -68,7 +41,31 @@ Manufacturing-Process-Efficiency-Analytics/
 - **Production Engineering** → OEE framework, downtime analysis  
 - **Data Analytics** → SQL querying, Python-based computation  
 - **Business Intelligence** → Power BI KPI dashboards  
-- **End-to-End Workflow** → Excel → SQL → Python → Power BI  
+- **End-to-End Workflow** → Excel → SQL → Python → Power BI
+
+## 🚀 How to Run  
+
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/PriyanshuThakur09/Manufacturing-Process-Efficiency-Analytics.git
+   cd Manufacturing-Process-Efficiency-Analytics
+   
+2. **Install Python dependencies**
+
+- pip install -r requirements.txt
+
+3.**Run the Jupyter Notebook**
+- jupyter notebook Notebook/"Manufacturing efficiency analytics OEE.ipynb"
+
+4.**Open the Power BI Dashboard**
+
+- Dashboard and Report/Production Line Analytics Dashboard.pbix
+
+5.**Explore final results**
+
+- Final result - OEE/oee_results.csv
+
+
 
 ## 📌 Author  
 👤 **Priyanshu Thakur**  
